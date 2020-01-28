@@ -7,7 +7,7 @@ description: >
     <p>
         <strong>Postdoctoral Research Fellow</strong>
         <br>University of Nebraska-Lincoln
-        <br><a href="mailto:wgearty@unl.edu">wgearty@unl.edu
+        <br><a href="mailto:wgearty@unl.edu">wgearty@unl.edu</a>
     </p>
 
 profile:
