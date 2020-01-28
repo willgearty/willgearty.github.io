@@ -4,6 +4,7 @@ permalink: /publications/
 title: publications
 description: 
 years: [2020, 2018, 2016, 2013]
+social: true
 ---
 
 {% for y in page.years %}

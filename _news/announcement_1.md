@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2019-09-01
 inline: true
+publish: true
 ---
 
-A simple inline announcement.
+I've moved to Nebraska! I'm now a Postdoc at the University of Nebraska-Lincoln with Dr. Kate Lyons!

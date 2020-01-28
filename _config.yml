@@ -42,8 +42,8 @@ google_analytics: UA-53338219-2 # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: macropaleo
+blog_description: a blog about macroevolution, macropaleoecology, and other macro stuff
 
 # Pagination
 paginate: 4
