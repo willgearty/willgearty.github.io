@@ -1,6 +1,6 @@
 ---
 ---
-
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 {% if entry.abbr %}
   {% if site.data.venues[entry.abbr] %}
     <abbr>[<a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a>]</abbr>
@@ -13,7 +13,7 @@
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
-    <span class="title">{{entry.title}}</span>
+    <span class="title"><strong>{{entry.title}}</strong></span>
     <span class="author">
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
@@ -50,13 +50,15 @@
 
     <span class="periodical">
     {% if entry.type == "article" %}
-      <em>{{entry.journal}}</em>
+      <em>{{entry.journal}}</em>{% if entry.volume %}, {{ entry.volume }}{% if entry.number %}({{ entry.number }}){% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %}{% endif %}
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
     {% endif %}
+    <!--
     {% if entry.year %}
       {{entry.year}}
     {% endif %}
+    -->
     </span>
   {% endif %}
 
@@ -92,5 +94,9 @@
   <span class="abstract hidden">
     <p>{{ entry.abstract }}</p>
   </span>
+  {% endif %}
+
+  {% if entry.doi %}
+  <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ entry.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed"></div>
   {% endif %}
 </div>
