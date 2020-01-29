@@ -1,9 +1,8 @@
 ---
 layout: page
 permalink: /cv/
-title: cv
+title: CV
 description: 
-years: [1956, 1950, 1935, 1905]
 social: true
 ---
 
