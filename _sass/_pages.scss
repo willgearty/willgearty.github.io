@@ -6,8 +6,19 @@
 }
 .contacticon {
     display: block;
-    font-size: 60px;
+    font-size: 50px;
     margin: 10px;
+}
+.contacticon table {
+    width: auto;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.socialicon > *, .socialicon > a > * {
+    vertical-align: middle;
+}
+.contacticon table, .contacticon tr, .contacticon td {
+    border: none;
 }
 .center{
     text-align: center;
