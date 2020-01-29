@@ -43,7 +43,7 @@ google_analytics: UA-53338219-2 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: macropaleo
-blog_description: a blog about macroevolution, macropaleoecology, and other macro stuff
+blog_description: an infrequent blog about macroevolution, macropaleoecology, and other macro stuff
 
 # Pagination
 paginate: 4
