@@ -23,20 +23,17 @@
 
       <div class="trigger">
         <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
+        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">{% if page.url == "/" %}<strong>{% endif %}about{% if page.url == "/" %}</strong>{% endif %}</a>
 
         <!-- Blog -->
-        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
+        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">{% if page.url == "/blog/" %}<strong>{% endif %}blog{% if page.url == "/blog/" %}</strong>{% endif %}</a>
 
         <!-- Pages -->
-        {% for page in site.pages %}
-          {% if page.title and page.url != "/" %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
+        {% for header_page in site.pages %}
+          {% if header_page.title and header_page.url != "/" %}
+            <a class="page-link" href="{{ header_page.url | prepend: site.baseurl | prepend: site.url }}">{% if page.title == header_page.title %}<strong>{% endif %}{{ header_page.title }}{% if page.title == header_page.title %}</strong>{% endif %}</a>
           {% endif %}
         {% endfor %}
-
-        <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
 
       </div>
     </nav>
