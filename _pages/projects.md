@@ -7,7 +7,7 @@ social: true
 ---
 
 <center>
-    <img src="under_construction.png" width="60%">
+    <img src="/assets/img/under_construction.png" width="60%">
 </center>
 
 {% for project in site.projects %}
