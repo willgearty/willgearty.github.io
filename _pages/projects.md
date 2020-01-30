@@ -7,7 +7,7 @@ social: true
 ---
 
 <center>
-    <img src="https://clevelandhabitat.org/wp-content/uploads/2016/05/Website-Under-Construction-Image-1024x989.jpg" width="60%">
+    <img src="under_construction.png" width="60%">
 </center>
 
 {% for project in site.projects %}
