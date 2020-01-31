@@ -61,3 +61,8 @@ figure {
         font-size: 20px;
     }
 }
+
+.noborder > table > tbody > tr > td {
+    border: none;
+    padding: 10px;
+}
