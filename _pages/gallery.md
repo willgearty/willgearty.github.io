@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Gallery
-permalink: /gallery/
+title: 
+permalink: /gallery_old/
 description: 
 social: true
+header: false
 ---
 <div class="noborder">
     <table>

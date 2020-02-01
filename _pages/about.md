@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>William</strong> Gearty
+title: About
 description: >
     <h3><strong>Evolutionary Paleobiologist</strong></h3>
     <p>
@@ -18,6 +18,7 @@ profile:
 
 news: true
 social: true
+header: true
 ---
 
 <p align="justify">
