@@ -129,10 +129,51 @@ gallery:
   title: "Gallery"          # Title for gallery index page
   title_prefix: "Gallery: " # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
   sort_field: "date_time"   # How to sort galleries on the index page.
-                            # Possible values are: title, date_time, best_image
-  thumbnail_size:
-    x: 400                  # max width of thumbnails (in pixels)
-    y: 400                  # max height of thumbnails (in pixels)
+                            # Possible values are: title, date_time, best_image, name
+
+  galleries:
+    appalachia_2013:
+      best_image: 1402046_10201738013123480_350744215_o_10201738013123480_49468908288_o.jpg
+      name: "Appalachia, 2013"
+    arizona_dig_2012:
+      best_image: 148787_3731628540692_223800940_n_3731628540692_49469548797_o.jpg
+      name: "Arizona Dig, 2012"
+    bahamas_2017:
+      best_image: 20689755_10212288404396668_9070763257248177716_o_10212288404396668_49469376506_o.jpg
+      name: "Bahamas, 2017"
+    baltics_2013:
+      best_image: 984027_10200785106581412_1529788564_n_10200785106581412_49469504438_o.jpg
+      name: "The Baltics, 2013"
+    barbados_2012:
+      best_image: 64350_3249477087207_1394215321_n_3249477087207_49469788021_o.jpg
+      name: "Barbados, 2012"
+    california_2017:
+      best_image: 20689560_10212288182631124_572796773023662785_o_10212288182631124_49469784256_o.jpg
+      name: "California, 2017"
+    california_2018:
+      best_image: img_20181022_133927_49470373487_o.jpg
+      name: "California, 2018"
+    canada_2012:
+      best_image: 531139_4465126757689_1478558701_n_4465126757689_49469634102_o.jpg
+      name: "Canada, 2012"
+    friday_harbor_2015:
+      best_image: 10866261_10206057869317185_1028400867388704117_o_10206057869317185_49469637933_o.jpg
+      name: "Friday Harbor, 2015"
+    ghana_2014:
+      best_image: 1496401_10203235680124219_1569266186405655729_o_10203235680124219_49469347166_o.jpg
+      name: "Ghana, 2014"
+    new_zealand_2016:
+      best_image: 12901524_10207979425394886_2352323521682122742_o_10207979425394886_49470012736_o.jpg
+      name: "New Zealand, 2016"
+    oregon_zoo_2017:
+      best_image: 20690450_10212288120989583_7352339017036782005_o_10212288120989583_49469630323_o.jpg
+      name: "Oregon Zoo, 2017"
+    san_francisco_2017:
+      best_image: img_20170806_165927_49470358932_o.jpg
+      name: "San Francisco, 2017"
+    united_kingdom_2013:
+      best_image: 1167457_10201346441694439_2019250219_o_10201346441694439_49468761303_o.jpg
+      name: "United Kingdom, 2013"
 
 # -----------------------------------------------------------------------------
 # Other settings
