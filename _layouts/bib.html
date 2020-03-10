@@ -69,6 +69,12 @@
         {% if entry.abstract %}
           [<a class="abstract">Abs</a>]
         {% endif %}
+        {% if entry.press %}
+          [<a href="{{ entry.press }}" target="_blank">Press Release</a>]
+        {% endif %}
+        {% if entry.blog %}
+          [<a href="{{ entry.blog }}" target="_blank">Blog</a>]
+        {% endif %}
         {% if entry.arxiv %}
           [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
         {% endif %}
