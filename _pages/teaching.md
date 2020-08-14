@@ -10,7 +10,7 @@ header: true
 <h3>Current courses</h3>
 <h4>University of Nebraska-Lincoln<h4>
 <ul>
-<li>I am currently leading an informal reading/working group on the use of phylogenetic comparative methods to study evolutionary and ecological systems and questions. I hope to make this a formal course in the future (<a href="mailto:wgearty@unl.edu">contact me</a> for more details)</li>.
+<li>I am currently leading an informal reading/working group on the use of phylogenetic comparative methods to study evolutionary and ecological systems and questions. I hope to make this a formal course in the future (<a href="mailto:wgearty@unl.edu">contact me</a> for more details).</li>
 </ul>
 
 <h3>Previous course history</h3>
