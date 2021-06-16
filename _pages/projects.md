@@ -1,57 +1,75 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Research
+permalink: /research/
+description: 
 nav: true
-display_categories: [work, fun]
+display_categories:
 horizontal: false
 ---
 <div class="projects">
-  {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-    {% for category in page.display_categories %}
-      <h2 class="category">{{category}}</h2>
-      {% assign categorized_projects = site.projects | where: "category", category %}
-      {% assign sorted_projects = categorized_projects | sort: "importance" %}
-      <!-- Generate cards for each project -->
-      {% if page.horizontal %}
-        <div class="container">
-          <div class="row row-cols-2">
-          {% for project in sorted_projects %}
-            {% include projects_horizontal.html %}
-          {% endfor %}
-          </div>
-        </div>
-      {% else %}
-        <div class="grid">
-          {% for project in sorted_projects %}
-            {% include projects.html %}
-          {% endfor %}
-        </div>
-      {% endif %}
-    {% endfor %}
+<p align="justify">The degree to which species diversify taxonomically and functionally varies dramatically across time, space, and the tree of life.
+    This ultimately has resulted in the vast diversity and disparity that we see on Earth today. Numerous physiological, ecological, and environmental conditions have been implicated as the causes for this variation.
+    I integrate tools and theory from paleontology, geology, ecology, and physiology to study how these components collectively drive and constrain diversity and disparity across time, space, and life.
+    Beyond understanding how and why life diversified the way it did in the past, my research provides insights into how modern anthropogenic environmental shifts may ultimately influence the ecology and evolution of today’s biosphere.
+</p>
 
-  {% else %}
-  <!-- Display projects without categories -->
-    {% assign sorted_projects = site.projects | sort: "importance" %}
-    <!-- Generate cards for each project -->
-    {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-2">
-        {% for project in sorted_projects %}
-          {% include projects_hrz.html %}
-        {% endfor %}
+<p><i>Click any of the tiles below to learn more about my various research projects:</i></p>
+
+<center>
+{% assign projects = site.projects | sort: 'importance' %}
+{% for project in projects %}
+
+{% unless project.hidden %}
+
+{% if project.redirect %}
+<div class="project">
+    <div class="thumbnail">
+        <a href="{{ project.redirect }}" target="_blank">
+        {% if project.img %}
+        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <div>
+            <span>
+                <h1>{{ project.title }}</h1>
+                {% if project.description %}
+                <br/>
+                <p>{{ project.description }}</p>
+                {% endif %}
+            </span>
         </div>
-      </div>
-    {% else %}
-      <div class="grid">
-        {% for project in sorted_projects %}
-          {% include projects.html %}
-        {% endfor %}
-      </div>
-    {% endif %}
+        </a>
+    </div>
+</div>
+{% else %}
 
-  {% endif %}
+<div class="project ">
+    <div class="thumbnail">
+        <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+        {% if project.img %}
+        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <div>
+            <span>
+                <h1>{{ project.title }}</h1>
+                {% if project.description %}
+                <br/>
+                <p>{{ project.description }}</p>
+                {% endif %}
+            </span>
+        </div>
+        </a>
+    </div>
+</div>
 
+{% endif %}
+
+{% endunless %}
+
+{% endfor %}
+</center>
 </div>
