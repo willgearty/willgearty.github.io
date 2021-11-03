@@ -6,4 +6,9 @@ description:
 nav: true
 ---
 
-<center><iframe src="https://uofnelincoln-my.sharepoint.com/personal/wgearty2_unl_edu/_layouts/15/Doc.aspx?sourcedoc={d1ca97fb-b899-4665-9d1c-b91099e99ff1}&amp;action=embedview&amp;wdEmbedCode=0" width="100%" height="800px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe></center>
+<center>
+If the embedded version does not work, you can download a copy <a href="/assets/pdf/CV_Gearty.pdf" target="_blank">here</a>.
+<object data="/assets/pdf/CV_Gearty.pdf#view=FitH&pagemode=none" width="100%" height="800px" type="application/pdf">
+    <embed src="/assets/pdf/CV_Gearty.pdf#view=FitH&pagemode=none" width="100%" height="800px" type="application/pdf" />
+</object>
+</center>
