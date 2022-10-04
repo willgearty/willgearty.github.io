@@ -20,6 +20,15 @@ timescales to their visualizations. Other functions are also included to assist
 with other areas of deep time visualization.
 </p>
 
+<h4><a href="https://palaeoverse.org/" target="_blank">pal(a)eoverse</a></h4>
+[![GitHub R package version](https://img.shields.io/github/r-package/v/palaeoverse-community/palaeoverse?color=blue&label=GitHub)](https://github.com/palaeoverse-community/palaeoverse)
+<p>
+An R package developed by palaeobiologists, for palaeobiologists. The aim of palaeoverse
+is to generate a community-driven software package of generic functions for the palaeobiology community.
+The package does not provide implementations of statistical analyses, rather it provides auxiliary functions
+to help streamline analyses and improve code readability and reproducibility.
+</p>
+
 <h4><a href="https://github.com/willgearty/pcmtools" target="_blank">pcmtools</a></h4>
 [![DOI](https://zenodo.org/badge/213449197.svg)](https://zenodo.org/badge/latestdoi/213449197)
 <p>

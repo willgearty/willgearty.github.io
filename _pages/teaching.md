@@ -6,13 +6,12 @@ description:
 nav: true
 ---
 
-<h3><strong>Current courses</strong></h3>
+<h3><strong>Previous course history</strong></h3>
 <h4>University of Nebraska-Lincoln</h4>
 <ul>
-<li>In 2020 I lead an informal reading/working group on the use of phylogenetic comparative methods to study evolutionary and ecological systems and questions. I hope to make this a formal course in the future (<a href="mailto:wgearty@unl.edu">contact me</a> for more details).</li>
+<li>In 2020 I led an informal reading/working group on the use of phylogenetic comparative methods to study evolutionary and ecological systems and questions.</li>
 </ul>
-<br>
-<h3><strong>Previous course history</strong></h3>
+
 <h4>Stanford University</h4>
 GS 4: Coevolution of Earth and Life
 <ul>
