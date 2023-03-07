@@ -7,21 +7,25 @@ nav: true
 ---
 
 <h3> R packages</h3>
-<h4><a href="https://github.com/willgearty/deeptime" target="_blank">deeptime</a></h4>
+<img src="/assets/image/deeptime.png" align="right" width="120" />
+<h4><a href="http://williamgearty.com/deeptime/" target="_blank">deeptime</a></h4>
 [![DOI](https://zenodo.org/badge/152502088.svg)](https://zenodo.org/badge/latestdoi/152502088)
 [![CRAN status](https://www.r-pkg.org/badges/version/deeptime)](https://CRAN.R-project.org/package=deeptime)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/deeptime)](https://cran.r-project.org/package=deeptime)
 <p>
 An R package that extends the functionality of other plotting packages like
-`ggplot2` and `lattice` to help facilitate the plotting of data over long time
+<b>ggplot2</b> and <b>lattice</b> to help facilitate the plotting of data over long time
 intervals, including, but not limited to, geological, evolutionary, and ecological
 data. The primary goal of 'deeptime' is to enable users to add highly customizable
 timescales to their visualizations. Other functions are also included to assist
 with other areas of deep time visualization.
 </p>
 
-<h4><a href="https://palaeoverse.org/" target="_blank">pal(a)eoverse</a></h4>
-[![GitHub R package version](https://img.shields.io/github/r-package/v/palaeoverse-community/palaeoverse?color=blue&label=GitHub)](https://github.com/palaeoverse-community/palaeoverse)
+<img src="/assets/image/palaeoverse.png" align="right" width="120" />
+<h4><a href="https://palaeoverse.palaeoverse.org/" target="_blank">pal(a)eoverse</a></h4>
+[![DOI](https://img.shields.io/badge/DOI-10.31223%2FX5Z94Q-blue)](https://doi.org/10.31223/X5Z94Q)
+[![CRAN status](https://www.r-pkg.org/badges/version/palaeoverse)](https://CRAN.R-project.org/package=palaeoverse)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/palaeoverse)](https://cran.r-project.org/package=palaeoverse)
 <p>
 An R package developed by palaeobiologists, for palaeobiologists. The aim of palaeoverse
 is to generate a community-driven software package of generic functions for the palaeobiology community.
