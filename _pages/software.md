@@ -7,7 +7,7 @@ nav: true
 ---
 
 <h3> R packages</h3>
-<img src="/assets/image/deeptime.png" align="right" width="120" />
+<img src="/assets/img/deeptime.png" align="right" width="120" />
 <h4><a href="http://williamgearty.com/deeptime/" target="_blank">deeptime</a></h4>
 [![DOI](https://zenodo.org/badge/152502088.svg)](https://zenodo.org/badge/latestdoi/152502088)
 [![CRAN status](https://www.r-pkg.org/badges/version/deeptime)](https://CRAN.R-project.org/package=deeptime)
@@ -21,7 +21,7 @@ timescales to their visualizations. Other functions are also included to assist
 with other areas of deep time visualization.
 </p>
 
-<img src="/assets/image/palaeoverse.png" align="right" width="120" />
+<img src="/assets/img/palaeoverse.png" align="right" width="120" />
 <h4><a href="https://palaeoverse.palaeoverse.org/" target="_blank">pal(a)eoverse</a></h4>
 [![DOI](https://img.shields.io/badge/DOI-10.31223%2FX5Z94Q-blue)](https://doi.org/10.31223/X5Z94Q)
 [![CRAN status](https://www.r-pkg.org/badges/version/palaeoverse)](https://CRAN.R-project.org/package=palaeoverse)
