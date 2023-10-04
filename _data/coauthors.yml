@@ -17,3 +17,11 @@
 "Lyons":
   - firstname: ["S. Kathleen", "Kate", "S. Kate", "S. K."]
     url: https://unlcms.unl.edu/cas/biological-sciences/lyons/
+
+"Jones":
+  - firstname: ["Lewis", "Lewis A.", "L. A.", "Lewis Alan", "L."]
+    url: https://lewisajones.com/
+
+"Godoy":
+  - firstname: ["Pedro", "Pedro L.", "P. L.", "P."]
+    url: https://pedrolgodoy.netlify.app/
