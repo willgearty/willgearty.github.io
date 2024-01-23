@@ -232,6 +232,17 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-collapse {
+  margin-right: 1rem;
 }
 
 .navbar .dropdown-menu {
@@ -268,6 +279,7 @@ blockquote {
   }
 
   .navbar-brand {
+    margin-left: 1rem;
     color: var(--global-text-color);
   }
 
@@ -310,6 +322,8 @@ blockquote {
 }
 
 .navbar-toggler {
+  padding-right: 0;
+  margin-right: 1rem;
   .icon-bar {
     display: block;
     width: 22px;
@@ -370,7 +384,7 @@ blockquote {
 
     a {
       i::before {
-        color: var(--global-text-color);
+        color: $grey-color;
         transition-property: all 0.2s ease-in-out;
       }
 
@@ -655,17 +669,16 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: $grey-color;
+    border-bottom: 1px solid $grey-color;
     padding-top: 1rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin: 0 0 .5em;
     text-align: right;
   }
 
   ol.bibliography {
     list-style: none;
-    padding: 0;
+    padding: 0 .5rem;
     margin-top: 0;
 
     li {
@@ -703,7 +716,7 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: bold;
       }
 
       .author {
