@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: >
+subtitle: >
     <h3><strong>Evolutionary Paleobiologist</strong></h3>
     <p>
         <strong>Postdoctoral Research Fellow</strong>
