@@ -3,23 +3,22 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+first_name: William
+middle_name:
+last_name: Gearty
+email: wgearty@amnh.org
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  My personal website.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+url: https://williamgearty.com # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -67,16 +66,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: willgearty # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: # your X handle
+x_username: willgearty # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0003-0076-3262 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -103,8 +102,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -112,7 +110,7 @@ contact_note: >
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-B48C68KGQJ # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
@@ -123,8 +121,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: #macropaleo # blog_name will be displayed in your blog page
+blog_description: an infrequent blog about macroevolution, macropaleoecology, and other macro stuff
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -173,7 +171,7 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /research/:path/
 
 announcements:
   enabled: true
@@ -240,6 +238,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-gallery-generator
 
 # Sitemap settings
 defaults:
@@ -283,8 +282,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Gearty]
+  first_name: [William, W.]
 
   style: apa
   locale: en
@@ -358,10 +357,66 @@ imagemagick:
     webp: "-quality 85"
 
 # -----------------------------------------------------------------------------
+# Jekyll Gallery Generator
+# -----------------------------------------------------------------------------
+
+gallery:
+  dir: "gallery"   # Path to the gallery
+  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "Gallery"          # Title for gallery index page
+  title_prefix: "Gallery: " # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  sort_field: "date_time"   # How to sort galleries on the index page.
+                            # Possible values are: title, date_time, best_image, name
+
+  galleries:
+    appalachia_2013:
+      best_image: 1402046_10201738013123480_350744215_o_10201738013123480_49468908288_o.jpg
+      name: "Appalachia, 2013"
+    arizona_dig_2012:
+      best_image: 148787_3731628540692_223800940_n_3731628540692_49469548797_o.jpg
+      name: "Arizona Dig, 2012"
+    bahamas_2017:
+      best_image: 20689755_10212288404396668_9070763257248177716_o_10212288404396668_49469376506_o.jpg
+      name: "Bahamas, 2017"
+    baltics_2013:
+      best_image: 984027_10200785106581412_1529788564_n_10200785106581412_49469504438_o.jpg
+      name: "The Baltics, 2013"
+    barbados_2012:
+      best_image: 64350_3249477087207_1394215321_n_3249477087207_49469788021_o.jpg
+      name: "Barbados, 2012"
+    california_2017:
+      best_image: 20689560_10212288182631124_572796773023662785_o_10212288182631124_49469784256_o.jpg
+      name: "California, 2017"
+    california_2018:
+      best_image: img_20181022_133927_49470373487_o.jpg
+      name: "California, 2018"
+    canada_2012:
+      best_image: 531139_4465126757689_1478558701_n_4465126757689_49469634102_o.jpg
+      name: "Canada, 2012"
+    friday_harbor_2015:
+      best_image: 10866261_10206057869317185_1028400867388704117_o_10206057869317185_49469637933_o.jpg
+      name: "Friday Harbor, 2015"
+    ghana_2014:
+      best_image: 1496401_10203235680124219_1569266186405655729_o_10203235680124219_49469347166_o.jpg
+      name: "Ghana, 2014"
+    new_zealand_2016:
+      best_image: 12901524_10207979425394886_2352323521682122742_o_10207979425394886_49470012736_o.jpg
+      name: "New Zealand, 2016"
+    oregon_zoo_2017:
+      best_image: 20690450_10212288120989583_7352339017036782005_o_10212288120989583_49469630323_o.jpg
+      name: "Oregon Zoo, 2017"
+    san_francisco_2017:
+      best_image: img_20170806_165927_49470358932_o.jpg
+      name: "San Francisco, 2017"
+    united_kingdom_2013:
+      best_image: 1167457_10201346441694439_2019250219_o_10201346441694439_49468761303_o.jpg
+      name: "United Kingdom, 2013"
+
+# -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
@@ -370,7 +425,7 @@ enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
+enable_project_categories: false # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 

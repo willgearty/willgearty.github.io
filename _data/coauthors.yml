@@ -1,34 +1,27 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Payne":
+  - firstname: ["Jonathan", "J.", "J. L.", "Jonathan L."]
+    url: https://paleobiology.stanford.edu/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"McClain":
+  - firstname: ["Craig", "Craig R.", "C. R.", "C."]
+    url: https://craigmcclain.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Field":
+  - firstname: ["Daniel", "Daniel J.", "D. J.", "D."]
+    url: http://www.danieljfield.com/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Racicot":
+  - firstname: ["Rachel", "Rachel A.", "R. A.", "R."]
+    url: https://www.rachelracicot.org/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Lyons":
+  - firstname: ["S. Kathleen", "Kate", "S. Kate", "S. K."]
+    url: https://unlcms.unl.edu/cas/biological-sciences/lyons/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Jones":
+  - firstname: ["Lewis", "Lewis A.", "L. A.", "Lewis Alan", "L."]
+    url: https://lewisajones.com/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Godoy":
+  - firstname: ["Pedro", "Pedro L.", "P. L.", "P."]
+    url: https://pedrolgodoy.netlify.app/
