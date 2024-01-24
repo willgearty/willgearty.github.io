@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: \* denotes equal contribution
+description:
 start_year: 2013
 nav: true
 nav_order: 4
@@ -10,6 +10,7 @@ nav_order: 4
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+\* denotes equal contribution
 <div class="publications">
 
 {% assign now = 'now' | date: "%Y" %}
