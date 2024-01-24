@@ -97,7 +97,7 @@
                   </div>
                 </li>
               {% else %}
-                <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
+                <li class="nav-item {% if page.url contains p.permalink %}active{% elsif page.url contains "gallery" and p.title contains "Gallery" %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
