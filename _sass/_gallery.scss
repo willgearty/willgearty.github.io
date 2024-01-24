@@ -1,12 +1,3 @@
-figure > img {
-    display: block;
-}
-
-figcaption {
-    //font-size: $small-font-size;
-}
-
-
 .blankbox {
     background: var(--global-theme-color);
 }
@@ -38,28 +29,6 @@ figcaption {
     text-align: center;
     vertical-align: middle;
     //font-size: $caption-font-size;
-}
-
-figure {
-    box-sizing: border-box;
-    float: left;
-    height: 350px;
-    padding: 10px;
-    vertical-align: middle;
-    width: 50%;
-    margin: 0;
-
-    img {
-        height: auto;
-        max-height: 247.5px;
-        position: relative;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    figcaption {
-        font-size: 20px;
-    }
 }
 
 .noborder > table > tbody > tr > td {
