@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description:
+description: \* denotes equal contribution
 start_year: 2013
 nav: true
 nav_order: 4
