@@ -48,6 +48,29 @@ From ver. 1.0.0, the package is now developed and maintained by myself and <a hr
 from the <a href="https://palaeoverse.org/" target="_blank">Palaeoverse</a> team.
 </p>
 
+<img src="/assets/img/rmacrostrat.png" align="right" width="120" />
+<h4><a href="https://rmacrostrat.palaeoverse.org/" target="_blank">rmacrostrat</a></h4>
+<hr>
+[![CRAN status](https://www.r-pkg.org/badges/version/rmacrostrat)](https://CRAN.R-project.org/package=rmacrostrat)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/rmacrostrat)](https://cran.r-project.org/package=rmacrostrat)
+<p style="overflow: hidden;">
+An R package that streamlines and improves accessibility to the geological database <a href="https://macrostrat.org" target="_blank">Macrostrat</a>.
+The package provides functionality for querying the database via the dedicated application programming interface (API) and retrieving various
+geological data (e.g., lithostratigraphic units) and definitions/metadata associated with those data and Macrostrat more broadly.
+</p>
+
+<img src="/assets/img/ropensci.png" align="right" width="120" />
+<h4><a href="https://docs.ropensci.org/rredlist/" target="_blank">rredlist</a></h4>
+<hr>
+[![CRAN status](https://www.r-pkg.org/badges/version/rredlist)](https://CRAN.R-project.org/package=rredlist)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/rredlist)](https://cran.r-project.org/package=rredlist)
+<p style="overflow: hidden;">
+An R package to access the <a href="https://api.iucnredlist.org/" target="_blank">'IUCN' Red List API</a>. The 'IUCN' Red List is a
+global list of threatened and endangered species. Functions cover all of the Red List 'API' routes. An 'API' key is required. rredlist was
+originally developed and maintained by <a href="https://scottchamberlain.info/" target="_blank">Scott Chamberlain</a>. From ver. 1.0.0, the
+package is now developed and maintained by me.
+</p>
+
 <h4><a href="https://github.com/willgearty/pcmtools" target="_blank">pcmtools</a></h4>
 <hr>
 [![DOI](https://zenodo.org/badge/213449197.svg)](https://zenodo.org/badge/latestdoi/213449197)
@@ -64,5 +87,5 @@ A website to help manage the logistics of large short-term educational programs,
 
 <h4><a href="https://github.com/willgearty/willgearty.github.io" target="_blank">willgearty.github.io</a></h4>
 <p>
-The code that produces this website, hosted by Github.
+The code that produces this website, hosted by Github Pages.
 </p>
