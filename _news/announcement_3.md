@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-09-01
 inline: true
-publish: false
+publish: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I've moved to Syracuse, NY! I'm now a Postdoc at the Open-Source Program Office at Syracuse University!
