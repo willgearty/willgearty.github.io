@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-    <h3><strong>Paleobiologist 🦴, Software Engineer 💻, and Open Scientist 🔍</strong></h3>
+    <h3><strong>Paleobiologist 🦴<br>Software Engineer 💻<br>Open Scientist 🔍</strong></h3>
     <p>
         <strong>Postdoctoral Researcher</strong>
         <br>Syracuse University
