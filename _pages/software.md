@@ -92,8 +92,8 @@ An R package that provides various tools to help with performing phylogenetic co
 <h3>Other software</h3>
 <h4><a href="https://github.com/willgearty/Schizomida" target="_blank">Schizomida Shiny App</a></h4>
 <p>
-A shiny app that hosts a database for Schizomida, an order of arachnids known as short-tailed whip-scorpions. Shiny apps are usually hosted on servers (e.g., shinyapps.io) or are shared as packages and run locally with R, but this shiny app is hosted via GitHub pages [here](https://williamgearty.com/Schizomida/) using the latest [webr](https://docs.r-wasm.org/webr/latest/) infrastructure. This means there are absolutely no server fees and the webapp can be run anywhere a user can access the internet and on any device with a web browser. Aside from taking a few seconds to load, I think it works brilliantly!
-</a>
+A shiny app that hosts a database for Schizomida, an order of arachnids known as short-tailed whip-scorpions. Shiny apps are usually hosted on servers (e.g., shinyapps.io) or are shared as packages and run locally with R, but this shiny app is hosted via GitHub pages <a href="https://williamgearty.com/Schizomida/" target="_blank">here</a> using the latest <a href="https://docs.r-wasm.org/webr/latest/" target="_blank">webr</a> infrastructure. This means there are absolutely no server fees and the webapp can be run anywhere a user can access the internet and on any device with a web browser. Aside from taking a few seconds to load, I think it works brilliantly!
+</p>
 
 <h4><a href="https://github.com/learning-unlimited/ESP-Website" target="_blank">ESP-Website</a></h4>
 <p>
