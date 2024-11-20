@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <p align="justify">
-I am a Postdoctoral Researcher in the <a href="https://researchcomputing.syr.edu/ospo/">Open-Source Program Office</a>
+I am a Postdoctoral Researcher in the <a href="https://opensource.syracuse.edu">Open Source Program Office</a>
 at Syracuse University, where I promote, teach, and practice open science and open-source software development practices.
 I develop open-source R packages revolving around data acquisition, cleaning, and visualization. Outside of this I also
 conduct research in computational paleobiology. I'm specifically interested in the biotic and abiotic contraints and
