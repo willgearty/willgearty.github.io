@@ -11,7 +11,7 @@ nav_order: 3
 <img src="/assets/img/deeptime.png" align="right" width="120" />
 <h4><a href="http://williamgearty.com/deeptime/" target="_blank">deeptime</a></h4>
 <hr>
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2723127.svg)](https://doi.org/10.5281/zenodo.2723127)
+[![DOI](https://img.shields.io/badge/DOI-10.1080/20964471.2025.2537516-blue)](https://doi.org/10.1080/20964471.2025.2537516)
 [![CRAN status](https://www.r-pkg.org/badges/version/deeptime)](https://CRAN.R-project.org/package=deeptime)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/deeptime)](https://cran.r-project.org/package=deeptime)
 [![Source code on GitHub](https://img.shields.io/badge/Source%20Code-black?logo=github)](https://github.com/willgearty/deeptime/)
@@ -28,7 +28,7 @@ with other areas of deep time visualization.
 <img src="/assets/img/palaeoverse.png" align="right" width="120" />
 <h4><a href="https://palaeoverse.palaeoverse.org/" target="_blank">pal(a)eoverse</a></h4>
 <hr>
-[![DOI](https://img.shields.io/badge/DOI-10.31223%2FX5Z94Q-blue)](https://doi.org/10.31223/X5Z94Q)
+[![DOI](https://img.shields.io/badge/DOI-10.1111/2041--210X.14099-blue)](https://doi.org/10.1111/2041-210X.14099)
 [![CRAN status](https://www.r-pkg.org/badges/version/palaeoverse)](https://CRAN.R-project.org/package=palaeoverse)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/palaeoverse)](https://cran.r-project.org/package=palaeoverse)
 [![Source code on GitHub](https://img.shields.io/badge/Source%20Code-black?logo=github)](https://github.com/palaeoverse/palaeoverse/)
@@ -56,7 +56,7 @@ from the <a href="https://palaeoverse.org/" target="_blank">Palaeoverse</a> team
 <img src="/assets/img/rmacrostrat.png" align="right" width="120" />
 <h4><a href="https://rmacrostrat.palaeoverse.org/" target="_blank">rmacrostrat</a></h4>
 <hr>
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13143095.svg)](https://doi.org/10.5281/zenodo.13143095)
+[![DOI](https://img.shields.io/badge/DOI-10.1130/GES02815.1-blue)](https://doi.org/10.1130/GES02815.1)
 [![CRAN status](https://www.r-pkg.org/badges/version/rmacrostrat)](https://CRAN.R-project.org/package=rmacrostrat)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/rmacrostrat)](https://cran.r-project.org/package=rmacrostrat)
 [![Source code on GitHub](https://img.shields.io/badge/Source%20Code-black?logo=github)](https://github.com/palaeoverse/palaeoverse/)
@@ -66,7 +66,7 @@ The package provides functionality for querying the database via the dedicated a
 geological data (e.g., lithostratigraphic units) and definitions/metadata associated with those data and Macrostrat more broadly.
 </p>
 
-<img src="/assets/img/ropensci.png" align="right" width="120" />
+<img src="/assets/img/rredlist.png" align="right" width="120" />
 <h4><a href="https://docs.ropensci.org/rredlist/" target="_blank">rredlist</a></h4>
 <hr>
 [![DOI](https://img.shields.io/badge/DOI-10.32614/CRAN.package.rredlist-blue)](https://doi.org/10.32614/CRAN.package.rredlist)
