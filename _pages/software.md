@@ -90,6 +90,11 @@ An R package that provides various tools to help with performing phylogenetic co
 
 <br>
 <h3>Other software</h3>
+<h4><a href="https://williamgearty.com/paleopal/" target="_blank">paleopal</a></h4>
+<p>
+A proof-of-concept shiny app that helps paleontologists develop data science workflows with a point-and-click interface and translates the workflow into R code on-the-fly. The webapp is built using the <a href="https://github.com/willgearty/shinypal" target="_blank">shinypal framework</a> and hosted as a <a href="https://docs.r-wasm.org/" target="_blank">webr package</a> with GitHub pages using the <a href="https://posit-dev.github.io/r-shinylive/" target="_blank">shinylive package</a>. The source code for paleopal is available on <a href="https://github.com/willgearty/paleopal" target="_blank">GitHub</a>. Note that the webapp may take a few seconds to load the first time.
+</p>
+
 <h4><a href="https://github.com/willgearty/Schizomida" target="_blank">Schizomida Shiny App</a></h4>
 <p>
 A shiny app that hosts a database for Schizomida, an order of arachnids known as short-tailed whip-scorpions. Shiny apps are usually hosted on servers (e.g., shinyapps.io) or are shared as packages and run locally with R, but this shiny app is hosted via GitHub pages <a href="https://williamgearty.com/Schizomida/" target="_blank">here</a> using the latest <a href="https://docs.r-wasm.org/webr/latest/" target="_blank">webr</a> infrastructure. This means there are absolutely no server fees and the webapp can be run anywhere a user can access the internet and on any device with a web browser. Aside from taking a few seconds to load, I think it works brilliantly!
