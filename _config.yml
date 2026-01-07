@@ -303,6 +303,7 @@ scholar:
   details_link: Details
 
   query: "@*"
+  order: descending
   group_by: year
   group_order: descending
 
